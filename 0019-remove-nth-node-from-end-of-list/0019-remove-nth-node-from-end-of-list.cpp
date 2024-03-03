@@ -8,25 +8,36 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+#include <iostream>
+#include<bits/stdc++.h>
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-         ListNode * start = new ListNode();
-        start -> next = head;
-        ListNode* fast = start;
-        ListNode* slow = start;     
-
-        for(int i = 1; i <= n; ++i)
-            fast = fast->next;
-    
-        while(fast->next != NULL)
-        {
-            fast = fast->next;
-            slow = slow->next;
-        }
-        
-        slow->next = slow->next->next;
-        
-        return start->next;
+ 
+void printLL(ListNode* head) {
+    while (head != NULL) {
+        cout << head->val << " ";
+        head = head->next;
     }
+}
+
+ListNode* removeNthFromEnd(ListNode* head, int N) {
+    ListNode* fastp = head;
+    ListNode* slowp = head;
+
+    for (int i = 0; i < N; i++)
+        fastp = fastp->next;
+
+    if (fastp == NULL)
+        return head->next;
+
+    while (fastp->next != NULL) {
+        fastp = fastp->next;
+        slowp = slowp->next;
+    }
+
+    ListNode* delNode = slowp->next;
+    slowp->next = slowp->next->next;
+    delete delNode;
+    return head;
+}
 };
