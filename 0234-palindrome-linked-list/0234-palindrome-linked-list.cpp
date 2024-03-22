@@ -11,7 +11,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        if(head==NULL || head->next==NULL)
+    if(head==NULL || head->next==NULL)
         {
             return true;
         }
@@ -45,6 +45,6 @@ public:
             pre=ptr;
             ptr=nex;
         }
-        return pre;
+        return pre;        
     }
 };
