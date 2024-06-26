@@ -3,14 +3,14 @@ public:
     int maxDepth(string s) {
         int depth=0;
         int ans=0;
-        for(int i=0;i<s.size();i++)
+        for(char &ch : s)
         {
-            if(s[i]=='(')
+            if(ch=='(')
                depth++;
-               else if(s[i]==')')
+            else if(ch==')')
                {
                    depth--;
-               }
+            }
                ans=max(ans,depth);
         }
                return ans;
