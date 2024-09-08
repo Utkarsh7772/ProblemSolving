@@ -19,7 +19,6 @@ public:
                 result -= mp[s[i]];
             }
         }
-        
         return result;
     }
 };
