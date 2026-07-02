@@ -16,4 +16,12 @@ Here I will be uploading my daily data structures problem that I will be solving
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Utkarsh7772/ProblemSolving/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Utkarsh7772/ProblemSolving/tree/main/0021-merge-two-sorted-lists/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Utkarsh7772/ProblemSolving/tree/main/0021-merge-two-sorted-lists/) | Easy |
 <!---LeetCode Topics End-->
