@@ -12,6 +12,7 @@ Here I will be uploading my daily data structures problem that I will be solving
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Utkarsh7772/ProblemSolving/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0006-zigzag-conversion](https://github.com/Utkarsh7772/ProblemSolving/tree/main/0006-zigzag-conversion/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
